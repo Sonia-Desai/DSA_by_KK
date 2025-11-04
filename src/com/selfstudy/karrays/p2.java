@@ -1,10 +1,10 @@
 package com.selfstudy.karrays;
 
 import java.util.Scanner;
-
+//Array of premitives
 public class p2 {
     public static void main(String[] args) {
-        int arr [] = new int[55];
+        int arr [] = new int[5];
         int a = 10;
         System.out.println("Loop Starts ");
         for(int i = 0 ; i<arr.length;i++){
@@ -21,16 +21,26 @@ public class p2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array");
         int size = sc.nextInt();
-        int [] number = new int [size];
-        System.out.println("Enter the elements of the array");
 
-        System.out.print("Loop Starts ");
+        System.out.print("Enter the elements of the array");
+        int [] number = new int [size];
+
+
         for(int j = 0 ; j<=arr.length;j++){
 
             arr[j]=sc.nextInt();
-            System.out.print(arr[j]+" ");
+            if(arr.length==size){
+
+                System.out.print(arr[j]+" ");
+            }
 
 
+
+        }
+
+        for(int num : number){
+            System.out.println("Using for each loop");
+            System.out.print(num+" ");
         }
         System.out.print("Loop Starts ");
 
