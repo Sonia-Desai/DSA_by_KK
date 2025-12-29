@@ -1,5 +1,5 @@
 package com.selfstudy.linearsearch;
-
+//Search in String
 public class p2 {
    public  static void main(String[] args) {
        String str = "Soniya";
