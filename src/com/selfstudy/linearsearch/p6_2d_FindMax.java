@@ -23,11 +23,12 @@ public class p6_2d_FindMax {
     }
 
     public static int  findSearch(int[][] arr ) {
-            int result = arr[0][0];
+          //  int result = arr[0][0];
+            int max = Integer.MIN_VALUE;
         for(int i = 1; i< arr.length ; i++){
             for(int j = 1 ; j<arr[i].length ; j++){
-              if(arr[i][j]> result){
-                  result = arr[i][j];
+              if(arr[i][j]> max){
+                  max = arr[i][j];
 
               }
 
@@ -35,7 +36,7 @@ public class p6_2d_FindMax {
             }
         }
 
-        return result;
+        return max;
 
 
 
