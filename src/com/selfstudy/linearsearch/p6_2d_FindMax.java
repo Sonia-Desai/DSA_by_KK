@@ -1,6 +1,6 @@
 package com.selfstudy.linearsearch;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class p6_2d_FindMax {
     public static void main(String[] args) {
